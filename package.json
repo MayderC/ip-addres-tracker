@@ -1,7 +1,6 @@
 {
-  "name": "ipAddressTracker",
+  "name": "ipaddresstracker",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,5 +13,14 @@
     "express": "^4.17.1",
     "nodemon": "^2.0.4",
     "pug": "^3.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MayderC/ip-addres-tracker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MayderC/ip-addres-tracker/issues"
+  },
+  "homepage": "https://github.com/MayderC/ip-addres-tracker#readme",
+  "description": ""
 }
