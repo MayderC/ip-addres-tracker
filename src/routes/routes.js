@@ -7,9 +7,7 @@ const controller = require('../controller/controller');
 module.exports = function(){
 
     routes.get('/', controller.controllerHome);
-    routes.post('/', controller.getPosition);
-
-    routes.get('/cords', controller.getCords);    
+    routes.post('/cords', controller.getPosition);
 
 
     return routes

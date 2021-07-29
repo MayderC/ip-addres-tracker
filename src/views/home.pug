@@ -18,21 +18,13 @@ html(lang="en")
     body
         main(class="main")
             h1 IP Address Tracker
-            if(obj)
-            
-
-            div(class="may")
-                a(href="http://mayder.codes" target="_blank") MayderC
+            p Ingresa una Direeción IP para ver su ubicación
 
             form(action="/", method="POST")
 
-                input(type="text", name="ip", class="form-control input" id="ip", placeholder="Enter IP Ejm: 0.0.0.0" pattern="(([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])")
-                button(type="submit", class="btn btn-primary") Submit
+                input(type="text", name="ip", class="form-control input" id="ip", placeholder="Enter IP Ejm: 8.8.8.8" pattern="(([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])\\.){3}([0-9]|[1-9][0-9]|1[0-9][0-9]|2[0-4][0-9]|25[0-5])")
+                button(type="submit", class="btn btn-primary" id="btn") Submit
                 div(id="mapid")
-
-            p(class="inf") Las direcciones ip y su información no son guardadas en ningun lado, solo se muestran de forma temporal en el navegagor del cliente "Usted"... 
-                a(class="src",  href="https://github.com/MayderC/ip-addres-tracker", target="_blank") link src
-
 
 
 

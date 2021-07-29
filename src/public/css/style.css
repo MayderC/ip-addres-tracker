@@ -7,6 +7,15 @@ body{
     color: aliceblue;
 }
 
+a{
+    color: white
+}
+
+a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
 .inf{
     position: absolute;
     bottom: 0;
@@ -19,10 +28,7 @@ body{
     right: 25px;
 }
 
-.may > a{
-  color: aliceblue;
-  text-decoration: none;
-}
+
 
 #mapid { 
     height: 620px;
@@ -40,8 +46,7 @@ body{
     width: 300px;
     margin: auto;
     margin-right: 15px;
-    margin-bottom: 50px;
-    margin-top: 50px;
+    margin-bottom: 40px;
 }
 
 .main{
